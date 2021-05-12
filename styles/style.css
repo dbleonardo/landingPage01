@@ -91,6 +91,10 @@ html, body{
 
 }
 
+.aviso{
+   padding: 2%;
+}
+
 .button{
     text-align: center;
     width: 18vw;
