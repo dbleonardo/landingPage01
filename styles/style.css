@@ -42,7 +42,7 @@ html, body{
 
 .form{
     margin-right: 5%;
-    width: 25%;
+    width: 30%;
     height: calc(100% + 30px);
     background-color:white;
     border-color: rgba(120, 120, 120, .4);
@@ -125,16 +125,19 @@ html, body{
     width: 50%;
     height: 35vh;
     background-color: rgba(33, 35, 67, .7);
-    margin: 10%;
+    margin: 5%;
+    border-radius: 5px;
 }
 
 .container-list ul{
+    padding: 0 5%;
+    margin-top: 1%;
     list-style-position: inside;
 }
 
 .container-list ul li {
     color: white;
-    margin: 2.5rem auto;
+    margin: 2rem auto;
 
 }
 
@@ -164,5 +167,21 @@ html, body{
     height: 64px;
     background-image: url('/images/arrow.png');
     background-size: 100% 100%;/*Para ajustar a imagem ao container.*/
+}
+
+/* footer */
+
+footer{
+    padding: 65px;
+    margin-top: -65px;
+    width:100%;
+    height:20vh;
+    background-color:#04bf4f;
+}
+
+footer p{
+    width:100%;
+    color: white;
+    text-align: center;
 }
 
